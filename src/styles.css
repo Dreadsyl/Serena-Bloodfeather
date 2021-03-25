@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+
+html,
+body {
+  background-color: #d4effc;
+  color: #fff;
+  height: 100%;
+}
+
+#content {
+    min-height: 100%;
+    margin-bottom: -150px;
+    padding-bottom: 150px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00a99d;
+  padding: 20px;
+  font-size: 1.7rem;
+}
+
+.att1,
+.hel1,
+.att2,
+.hel2 {
+  font-family: "Ranchers", cursive;
+  width: 84px;
+  height: 70px;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000;
+}
+
+.att1 {
+  left: 11px;
+  bottom: 0;
+}
+
+.hel1 {
+  left: 197px;
+  bottom: 0;
+}
+
+.att2 {
+  left: 14px;
+  bottom: -2px;
+}
+
+.hel2 {
+  left: 206px;
+  bottom: -2px;
+}
+
+.container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.input-group-text {
+  color: #fff;
+  background-color: #00a99d;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #00a99d;
+}
+
+.btn-color {
+  background-color: #00a99d;
+  color: #fff;
+  margin: 0 10px;
+  transition: border 0.25s;
+}
+
+.btn-color:hover {
+  border: 5px solid #d4effc;
+}
+
+.footer {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  background-color: #444444;
+  padding: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+}
